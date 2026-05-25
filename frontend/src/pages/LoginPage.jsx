@@ -31,11 +31,7 @@ export default function LoginPage() {
           <p style={{ color: '#64748b', fontSize: 13 }}>Sign in to Teamline</p>
         </div>
 
-        <div style={{ background: '#0f172a', border: '1px solid #1e293b', borderRadius: 10, padding: 12, marginBottom: 20, fontSize: 12, color: '#64748b' }}>
-          <p style={{ marginBottom: 4, color: '#94a3b8', fontWeight: 600 }}>Demo Accounts:</p>
-          <p>admin@demo.com / admin123 (Admin)</p>
-          <p>member@demo.com / member123 (Member)</p>
-        </div>
+        
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
           <Field label="Email" value={form.email} onChange={v => setForm({ ...form, email: v })} type="email" placeholder="you@example.com" />
